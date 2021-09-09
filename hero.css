@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     background: #5C6F4E;
-    position: fixed;
+    position: sticky;
     left: 0;
     right: 0;
     top: 0;
@@ -58,6 +58,7 @@ header p {
     padding-top: 37px;
     padding-bottom: 31px;
     border-radius: 8px;
+    transition: 2s;
 }
 .hidden_list li a:hover {
     text-decoration: underline;
